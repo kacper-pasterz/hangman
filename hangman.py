@@ -22,7 +22,7 @@ def hangman():
         print('You have', lives, 'lives left and you have used these letters: ', ' '.join(used_letters))
 
         word_list = [letter if letter in used_letters else '-' for letter in word]
-        print(lives_visual_dict[lives])
+        print(hangman_lives[lives])
         print('Current word: ', ' '.join(word_list))
 
         user_letter = input('Guess a letter: ').upper()
@@ -43,7 +43,7 @@ def hangman():
             print('\nThat is not a valid letter.')
 
     if lives == 0:
-        print(lives_visual_dict[lives])
+        print(hangman_lives[lives])
         print('You loose. The word was', word)
     else:
         print('Congratulations. You guessed the word correctly')
