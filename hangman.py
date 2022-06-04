@@ -1,6 +1,6 @@
 import random
 from words import words
-from hangman_visual import lives_visual_dict
+from hangman_visual import hangman_lives
 import string
 
 def get_valid_word(words):
