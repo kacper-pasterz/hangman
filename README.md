@@ -1,3 +1,7 @@
 # hangman
+
 Hangman game simulator
-# enjoy
+
+Vector graphics to be added.
+
+In future used as a website feature (Django).
